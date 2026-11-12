@@ -2,6 +2,12 @@
 
 Lets scripts written for qb-weathersync or Renewed-Weathersync work with night_natural_disasters.
 
+## Status
+
+Not running on DelPerroSands since 12 November 2026. This fix is now part of `dps-fixes`, which
+carries the same code along with the server's other small fixes. Run this script or `dps-fixes`,
+not both: running both does the same job twice.
+
 ## What it is for
 
 Many scripts expect qb-weathersync or Renewed-Weathersync. They fire qb-weathersync events to
@@ -89,6 +95,7 @@ Events it answers:
 
 ## Recent changes
 
+- **12 November 2026.** Taken off the DelPerroSands server. `dps-fixes` does this job now.
 - **12 November 2026.** README added.
 - **25 October 2026.** First commit, as it runs on DelPerroSands.
 - **18 October 2026.** The weather script is no longer paused indoors, because it held the
